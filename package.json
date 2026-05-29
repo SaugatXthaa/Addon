@@ -1,9 +1,8 @@
 {
   "name": "filmxy-multi-stremio-addon",
   "version": "1.1.0",
-  "description": "Stremio addon - Filmxy + Streamx + Cinevo + Fluxtv (4K + Subs)",
+  "description": "Stremio addon aggregating Filmxy.vip, Streamx.sh, Cinevo.site & Fluxtv.qzz.io (4K + Subs)",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "node index.js"
@@ -16,5 +15,8 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "license": "MIT",
+  "author": "Your Name",
+  "keywords": ["stremio", "addon", "filmxy", "4k", "streaming"]
 }
