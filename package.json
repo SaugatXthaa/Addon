@@ -17,6 +17,7 @@
     "node": ">=18"
   },
   "license": "MIT",
-  "author": "Your Name",
-  "keywords": ["stremio", "addon", "filmxy", "4k", "streaming"]
+  "overrides": {
+    "whatwg-encoding": "npm:@exodus/bytes@^1.0.0"
+  }
 }
